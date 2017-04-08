@@ -63,3 +63,10 @@ public class Consumer implements Runnable {
         }
     }
 }
+***************************************************************
+0
+1
+2
+3
+[pool-1-thread-1] thread was terminated
+[pool-1-thread-2] thread was terminated
