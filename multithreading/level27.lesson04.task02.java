@@ -26,3 +26,14 @@ public class Solution {
     private void doSomething() {
     }
 }
+------
+    если развернуть первый метод станет все понятно:
+public void firstMethod() {
+        synchronized (this)
+        {
+            synchronized (lock)
+            {
+                doSomething();
+            }
+        }
+    }
