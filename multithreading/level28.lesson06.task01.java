@@ -62,3 +62,19 @@ public class Solution {
         t.start();
     }
 }
+*********************************************
+size = 0
+
+Element :s-1762667279
+Element :s942384037
+Element :s-657960188
+size = 3
+
+Element2 :s-1762667279
+Element2 :s942384037
+Element2 :s-657960188
+Element2 :s-1321629185
+Element2 :s-939234651
+Element2 :s-1188114458
+Element2 :s-959973505
+size = 7
