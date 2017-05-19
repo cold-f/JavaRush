@@ -91,3 +91,15 @@ public class Solution {
         solution.printResults();
     }
 }
+*************************************************
+messageQueue size is 72700
+fakeDataBase size is 27300
+
+messageQueue size is 47200
+fakeDataBase size is 52800
+
+messageQueue size is 19900
+fakeDataBase size is 80100
+
+messageQueue size is 0
+fakeDataBase size is 100000
