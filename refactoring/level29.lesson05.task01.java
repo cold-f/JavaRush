@@ -16,7 +16,7 @@ public class Solution {
 
     public static void main(String[] args) {
         ConcurrentMap<Integer, String> concurrentMap = new ConcurrentHashMap<>();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 30; i++) {
             new Thread(getRunnable(i, concurrentMap)).start();
         }
         sleepASecond();
@@ -49,3 +49,14 @@ public class Solution {
         };
     }
 }
+********************************************************************
+Thread #0 вставил запись для 4
+Thread #3 хочет обновить 4, однако уже Thread #0 вставил запись для 4
+Thread #2 хочет обновить 4, однако уже Thread #0 вставил запись для 4
+Thread #1 хочет обновить 4, однако уже Thread #0 вставил запись для 4
+Thread #5 хочет обновить 4, однако уже Thread #0 вставил запись для 4
+Thread #6 хочет обновить 4, однако уже Thread #0 вставил запись для 4
+Thread #4 хочет обновить 4, однако уже Thread #0 вставил запись для 4
+Thread #8 хочет обновить 4, однако уже Thread #0 вставил запись для 4
+Thread #9 хочет обновить 4, однако уже Thread #0 вставил запись для 4
+------и тд
