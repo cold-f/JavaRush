@@ -37,9 +37,9 @@ public class CustomInvocationHandler implements InvocationHandler {
     }
 
     @Override
-    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        System.out.println(method.getName()+" in");
-        method.invoke(siwm, args);
+    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {//мы перехватываем вызов оригинального метода и делаем
+        System.out.println(method.getName()+" in");                                  //все, что хотим
+        method.invoke(siwm, args); //это вызов оригинального метода
         System.out.println(method.getName()+" out");
         return null;
     }
@@ -78,3 +78,4 @@ public class SomeInterfaceWithMethodsImpl implements SomeInterfaceWithMethods {
         inside voidMethodWithoutArgs
         voidMethodWithIntArg out
         */
+//
