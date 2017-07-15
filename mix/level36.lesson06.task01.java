@@ -40,3 +40,4 @@ public class Solution {
         return null;
     }
 }
+////Collections.EMPTY_LIST.getClass();
