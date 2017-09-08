@@ -58,3 +58,4 @@ public enum ExceptionDBMessage {
     RESULT_HAS_NOT_GOTTEN_BECAUSE_OF_TIMEOUT
 }
 ******************************************************************************
+ 
